@@ -21,6 +21,7 @@
 		7C315E5E22D495D700C7F787 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C315E5D22D495D600C7F787 /* ItemDetail.swift */; };
 		7C315E6022D4A30700C7F787 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C315E5F22D4A30700C7F787 /* OrderView.swift */; };
 		7C315E6222D4A44D00C7F787 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C315E6122D4A44D00C7F787 /* TabView.swift */; };
+		7C315E6422D4A60B00C7F787 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C315E6322D4A60B00C7F787 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		7C315E5D22D495D600C7F787 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		7C315E5F22D4A30700C7F787 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		7C315E6122D4A44D00C7F787 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		7C315E6322D4A60B00C7F787 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				7C315E5B22D48DB500C7F787 /* ItemRow.swift */,
 				7C315E5F22D4A30700C7F787 /* OrderView.swift */,
 				7C315E6122D4A44D00C7F787 /* TabView.swift */,
+				7C315E6322D4A60B00C7F787 /* CheckoutView.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C315E6222D4A44D00C7F787 /* TabView.swift in Sources */,
+				7C315E6422D4A60B00C7F787 /* CheckoutView.swift in Sources */,
 				7C27985522D487EB0023A1A9 /* Menu.swift in Sources */,
 				7C27983B22D487360023A1A9 /* AppDelegate.swift in Sources */,
 				7C27983D22D487360023A1A9 /* SceneDelegate.swift in Sources */,
