@@ -26,8 +26,7 @@ struct OrderView: View {
                 }
                 
                 Section {
-                    NavigationLink(destination: Text("Check out")) {
-                        CheckoutView().environmentObject(order)
+                    NavigationLink(destination: CheckoutView().environmentObject(order)) {
                         Text("Place order")
                     }
                 }
@@ -43,7 +42,9 @@ struct OrderView_Previews : PreviewProvider {
     static let order = Order()
     
     static var previews: some View {
-        OrderView().environmentObject(order)
+        NavigationView {
+            OrderView().environmentObject(order)
+        }
     }
 }
 #endif
